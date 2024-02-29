@@ -136,9 +136,36 @@ main {
 
 /* OPERATIONS SECTION */
 .operations-section {
-    padding: 20px 0;
+
+    /* debug */
+    /* background-color: lightcoral; */
 }
 
+.title,
+.dropbox-business {
+
+    /* debug */
+    height: 200px;
+    background-color: lightblue;
+}
+
+.operations-box {
+    flex-wrap: wrap;
+    gap: 20px;
+
+    /* debug */
+    /* height: 600px; */
+    /* background-color: lightgreen; */
+}
+
+.operations-box .col-30 {
+    width: calc(100% / 3 - 20px);
+    height: 500px;
+}
+
+.dropbox-business {
+    height: 300px;
+}
 
 /* Containers */
 .container-70{
