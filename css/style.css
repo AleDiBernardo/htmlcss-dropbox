@@ -41,6 +41,10 @@ img {
 .p-y-20 {
     padding: 20px 0;
 }
+
+.p-y-60 {
+    padding: 60px 0;
+}
 /* COMMON */
 
 /* BODY */
@@ -98,6 +102,7 @@ main {
     /* background-color: grey; */
 }
 
+/* PLANS SECTION */
 .plans-section {
     padding-top: 60px;
     padding-bottom: 20px;
@@ -106,16 +111,34 @@ main {
     /* background-color: yellow; */
 }
 
-.operations-section {
-    padding: 20px 0;
-}
-
 .find-business,
 .enterprise {
     /* debug */
     height: 150px;
     background-color: orangered;
 }
+
+/* PARTNER */
+
+.partner .img-side {
+    width: 70%;
+    /* debug */
+    height: 800px;
+    background-color: aqua;
+}
+
+.partner .text-side {
+    width: 30%;
+    /* debug */
+    height: 800px;
+    background-color: pink;
+}
+
+/* OPERATIONS SECTION */
+.operations-section {
+    padding: 20px 0;
+}
+
 
 /* Containers */
 .container-70{
@@ -127,7 +150,6 @@ main {
 }
 
 /* Columns */
-
 .col-30 {
     gap: 10px;
     width: calc(100% / 3 - 30px);
