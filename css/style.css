@@ -1,4 +1,6 @@
-
+:root {
+    --cyan-bg: #B4D0E7;
+}
 
 /* RESET */
 * {
@@ -11,26 +13,42 @@ img {
     max-width: 100%;
 }
 
+/* UTILITIES */
+.flex {
+    display: flex;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.alignitems-center {
+    align-items: center;
+}
 
 /* COMMON */
+
+/* BODY */
 body {
     /* debug */
     /* background-color: red; */
 }
 
+/* HEADER */
 header {
-
     position: fixed;
     left: 0;
     top: 0;
     z-index: 9999;
     width: 100%;
-    height: 80px;
 
     /* debug */
     background-color: orangered;
 }
-
 
 .left-side,
 .right-side {
@@ -41,14 +59,27 @@ header {
     background-color: yellow;
 }
 
+/* MAIN */
+main {
 
-/* UTILITIES */
-.flex {
-    display: flex;
+    /* debug */
+    background-color: green;
 }
 
-.space-btw {
-    justify-content: space-between;
+/* JUMBO */
+.jumbo-section {
+    background-color: var(--cyan-bg);
+}
+
+.jumbo-ctn {
+
+    /* debug */
+    height: 800px;
+    background-color: green;
 }
 
 
+/* Containers */
+.container-60{
+    width: 60%;
+}
