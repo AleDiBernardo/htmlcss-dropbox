@@ -11,8 +11,44 @@ img {
     max-width: 100%;
 }
 
+
+/* COMMON */
 body {
     /* debug */
     /* background-color: red; */
 }
+
+header {
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+
+    /* debug */
+    background-color: orangered;
+}
+
+
+.left-side,
+.right-side {
+    width: 30%;
+    height: 80px;
+
+    /* debug */
+    background-color: yellow;
+}
+
+
+/* UTILITIES */
+.flex {
+    display: flex;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
 
