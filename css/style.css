@@ -30,6 +30,17 @@ img {
     align-items: center;
 }
 
+.mar-auto {
+    margin: auto;
+}
+
+.col-dir {
+    flex-direction: column;
+}
+
+.p-y-20 {
+    padding: 20px 0;
+}
 /* COMMON */
 
 /* BODY */
@@ -52,7 +63,7 @@ header {
 
 .left-side,
 .right-side {
-    width: 30%;
+    width: 25%;
     height: 80px;
 
     /* debug */
@@ -63,11 +74,13 @@ header {
 main {
 
     /* debug */
-    background-color: green;
+    /* background-color: green; */
 }
 
 /* JUMBO */
 .jumbo-section {
+    padding-top: 150px;
+    /* debug */
     background-color: var(--cyan-bg);
 }
 
@@ -78,8 +91,50 @@ main {
     background-color: green;
 }
 
+/* MAIN-CONTENT */
+.main-content {
+    /* debug */
+    /* height: 800px; */
+    /* background-color: grey; */
+}
+
+.plans-section {
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+    /* debug */
+    /* background-color: yellow; */
+}
+
+.operations-section {
+    padding: 20px 0;
+}
+
+.find-business,
+.enterprise {
+    /* debug */
+    height: 150px;
+    background-color: orangered;
+}
 
 /* Containers */
+.container-70{
+    width: 70%;
+}
+
 .container-60{
     width: 60%;
 }
+
+/* Columns */
+
+.col-30 {
+    gap: 10px;
+    width: calc(100% / 3 - 30px);
+    /* debug */
+    height: 900px;
+    background-color: green;
+}
+
+
+
