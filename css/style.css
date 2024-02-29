@@ -215,6 +215,15 @@ header {
     height: 500px;
 }
 
+/* FOOTER */
+
+footer {
+
+    /* debug */
+    /* height: 700px; */
+    background-color: black;
+}
+
 /* Containers */
 .container-70 {
     width: 70%;
@@ -225,6 +234,16 @@ header {
 }
 
 /* Columns */
+
+.col-25 {
+    gap: 10px;
+    width: calc(100% / 5);
+    /* debug */
+    height: 500px;
+    background-color: green;
+    border: 2px solid black;
+}
+
 .col-30 {
     gap: 10px;
     width: calc(100% / 3 - 30px);
