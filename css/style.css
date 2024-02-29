@@ -42,6 +42,10 @@ img {
     text-align: end;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
 .alignitems-center {
     align-items: center;
 }
@@ -68,6 +72,10 @@ img {
 
 .p-top-60 {
     padding-top: 60px;
+}
+
+.p-bot-80 {
+    padding-bottom: 80px;
 }
 
 .blue-btn {
@@ -138,11 +146,29 @@ header {
 .jumbo-ctn {
 
     /* debug */
-    height: 800px;
-    background-color: green;
+    /* height: 800px; */
+    /* background-color: green; */
 }
 
+.jumbo-ctn > span{
+    /* width: 100%; */
+    font-size: 90px;
+    font-weight: bold;
 
+    /* debug */
+    /* height: 300px; */
+    /* background-color: red; */
+}
+
+.jumbo-ctn .left.rect {
+    width: 30%;
+    background-color: aqua;
+}
+
+.jumbo-ctn .right.rect {
+    width: 70%;
+    background-color: red;
+}
 
 /* MAIN-CONTENT */
 
@@ -183,8 +209,8 @@ header {
 .rect {
 
     /* debug */
-    height: 200px;
-    background-color: lightblue;
+    /* height: 200px; */
+    /* background-color: violet; */
 }
 
 .operations-box {
