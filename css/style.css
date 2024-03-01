@@ -153,6 +153,7 @@ a {
     height: 20px;
     border-radius: 50%;
     background-color: white;
+    cursor: pointer;
 
 }
 
@@ -468,5 +469,11 @@ footer {
 .col-30 {
     width: calc(100% / 3 - 30px);
     /* debug */
-    height: 900px;
+    /* height: 900px; */
+    padding-bottom: 40px;
+    /* background-color: red; */
+}
+
+.col-100 {
+    width: 100%;
 }
