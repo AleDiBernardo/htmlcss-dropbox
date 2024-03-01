@@ -295,7 +295,7 @@ header {
 }
 
 /* PROFESSIONAL LIST */
-ul.pro-list li:nth-child(1)::before {
+ul.adv-list li:nth-child(1)::before {
     content: "\f007";
     font-family: FontAwesome;
     display: inline-block;
@@ -303,7 +303,7 @@ ul.pro-list li:nth-child(1)::before {
     width: var(--icon-space);
 }
 
-ul.pro-list li:nth-child(2)::before {
+ul.adv-list li:nth-child(2)::before {
     content: "\f07b";
     font-family: FontAwesome;
     display: inline-block;
@@ -311,7 +311,7 @@ ul.pro-list li:nth-child(2)::before {
     width: var(--icon-space);
 }
 
-ul.pro-list li:nth-child(3)::before {
+ul.adv-list li:nth-child(3)::before {
     content: "\f1e0";
     font-family: FontAwesome;
     display: inline-block;
@@ -329,7 +329,7 @@ ul.highlight-list li:before {
     color: var(--blue-color);
 }
 
-.content-card ul.pro-list li:last-child {
+.content-card ul.adv-list li:last-child {
     padding-bottom: 50px;
 }
 
