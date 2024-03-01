@@ -75,6 +75,10 @@ img {
     
 }
 
+.p-y-10 {
+    padding: 10px 0;
+}
+
 .p-y-20 {
     padding: 20px 0;
 }
@@ -233,8 +237,13 @@ header {
 
 .circle-ctn span:first-child{
     border: 5px solid blue;
+}
+
+.circle-ctn span:nth-child(3){
+    border: 3px solid lightgray;
 
 }
+
 
 /* PARTNER */
 
@@ -354,8 +363,8 @@ footer {
     gap: 10px;
 
     /* debug */
-    background-color: green;
-    border: 2px solid black;
+    /* background-color: green; */
+    border: 1px solid grey;
 }
 
 .col-25 {
