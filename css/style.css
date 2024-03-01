@@ -60,6 +60,10 @@ img {
     margin: auto;
 }
 
+.weight-bold {
+    font-weight: bold;
+}
+
 .col-dir {
     flex-direction: column;
 }
@@ -108,13 +112,17 @@ img {
     font-weight: bold;
 }
 
-
 .font-size-60 {
     font-size: 60px;
 }
 
 .ln-height {
     line-height: 25px;
+}
+
+.custom-link {
+    text-decoration:underline;
+    color: var(--blue-color);
 }
 
 /* COMMON */
@@ -168,7 +176,7 @@ header {
 
 .border-hover:hover {
     padding-bottom: 30px;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid var(--blue-color);
 }
 
 .left-side,
@@ -249,7 +257,7 @@ header {
 }
 
 .circle-ctn span:first-child {
-    border: 5px solid blue;
+    border: 5px solid var(--blue-color);
 }
 
 .circle-ctn span:nth-child(3) {
@@ -259,6 +267,10 @@ header {
 
 .content-card {
     padding-left: 30px;
+}
+
+.content-card hr{
+    width: 50px;
 }
 
 .content-card>span:first-child {
@@ -282,7 +294,8 @@ header {
     padding: 10px;
 }
 
-.content-card ul li:nth-child(1)::before {
+/* PROFESSIONAL LIST */
+ul.pro-list li:nth-child(1)::before {
     content: "\f007";
     font-family: FontAwesome;
     display: inline-block;
@@ -290,7 +303,7 @@ header {
     width: var(--icon-space);
 }
 
-.content-card ul li:nth-child(2)::before {
+ul.pro-list li:nth-child(2)::before {
     content: "\f07b";
     font-family: FontAwesome;
     display: inline-block;
@@ -298,7 +311,7 @@ header {
     width: var(--icon-space);
 }
 
-.content-card ul li:nth-child(3)::before {
+ul.pro-list li:nth-child(3)::before {
     content: "\f1e0";
     font-family: FontAwesome;
     display: inline-block;
@@ -306,7 +319,17 @@ header {
     width: var(--icon-space);
 }
 
-.content-card ul li:last-child {
+/* HIGHLIGHT LIST */
+ul.highlight-list li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc(var(--icon-space) * -1);
+    width: var(--icon-space);
+    color: var(--blue-color);
+}
+
+.content-card ul.pro-list li:last-child {
     padding-bottom: 50px;
 }
 
