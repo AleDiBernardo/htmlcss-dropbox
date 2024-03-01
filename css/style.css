@@ -9,10 +9,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -64,6 +66,15 @@ img {
     flex-direction: row;
 }
 
+.p-left-5 {
+    padding-left: 5px;
+}
+
+.p-right-20 {
+    padding-right: 50px;
+    
+}
+
 .p-y-20 {
     padding: 20px 0;
 }
@@ -87,9 +98,6 @@ img {
     font-weight: bold;
 }
 
-.width {
-    width: 100%;
-}
 
 .font-size-60{
     font-size: 60px;
@@ -113,6 +121,21 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.subtitle {
+    font-size: 2.8rem;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
 
 /* BODY */
 body {
@@ -194,7 +217,7 @@ header {
 
 /* PLANS SECTION */
 .plans-section {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 20px;
 
     /* debug */
@@ -205,7 +228,12 @@ header {
 .enterprise {
     /* debug */
     height: 150px;
-    background-color: orangered;
+    /* background-color: orangered; */
+}
+
+.circle-ctn span:first-child{
+    border: 5px solid blue;
+
 }
 
 /* PARTNER */
