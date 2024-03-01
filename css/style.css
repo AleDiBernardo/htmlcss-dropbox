@@ -1,5 +1,7 @@
 :root {
     --cyan-bg: #B4D0E7;
+    --color-white: #FFFFFF;
+    --blue-color: #0000ff;
 }
 
 /* RESET */
@@ -70,8 +72,8 @@ img {
     padding: 60px 0;
 }
 
-.p-top-60 {
-    padding-top: 60px;
+.p-bot-30 {
+    padding-bottom: 30px;
 }
 
 .p-bot-80 {
@@ -79,18 +81,22 @@ img {
 }
 
 .blue-btn {
-    color: white;
+    color: var(--color-white);
     padding: 10px;
-    background-color: blue;
+    background-color: var(--blue-color);
     font-weight: bold;
-}
-
-h1 {
-    font-size: 90px;
 }
 
 .width {
     width: 100%;
+}
+
+.font-size-60{
+    font-size: 60px;
+}
+
+.ln-height {
+    line-height: 25px;
 }
 
 /* COMMON */
@@ -127,9 +133,10 @@ header {
 
 .left-side,
 .right-side {
-    width: 40%;
+    /* width: 40%; */
     height: 80px;
-    padding: 10px;
+    padding: 20px;
+
     /* debug */
     /* background-color: yellow; */
 }
@@ -144,15 +151,14 @@ header {
 }
 
 .jumbo-ctn {
-
     /* debug */
-    /* height: 800px; */
+    /* height: 1000px; */
     /* background-color: green; */
 }
 
-.jumbo-ctn > span{
+.jumbo-ctn > span {
     /* width: 100%; */
-    font-size: 90px;
+    font-size: 5rem;
     font-weight: bold;
 
     /* debug */
@@ -162,13 +168,27 @@ header {
 
 .jumbo-ctn .left.rect {
     width: 30%;
-    background-color: aqua;
+
+    /* debug */
+    /* background-color: aqua; */
+}
+
+.jumbo-ctn .left a {
+    max-width: 60%;
 }
 
 .jumbo-ctn .right.rect {
     width: 70%;
-    background-color: red;
+    position: relative;
+
+    /* debug */
+    /* background-color: red; */
 }
+
+.jumbo-ctn .right img {
+    position: absolute;
+}
+
 
 /* MAIN-CONTENT */
 
@@ -205,13 +225,6 @@ header {
 }
 
 /* OPERATIONS SECTION */
-
-.rect {
-
-    /* debug */
-    /* height: 200px; */
-    /* background-color: violet; */
-}
 
 .operations-box {
     flex-wrap: wrap;
@@ -286,6 +299,7 @@ header {
 
 .freq-question .rect {
     height: 500px;
+    background-color: violet;
 }
 
 /* FOOTER */
@@ -298,39 +312,32 @@ footer {
 }
 
 /* Containers */
-.container-70 {
-    width: 70%;
+.container-65 {
+    width: 65%;
 }
 
-.container-60 {
-    width: 60%;
+.container-55 {
+    width: 55%;
 }
 
 /* Columns */
 
-.col-25 {
+[class^="col"] {
     gap: 10px;
-    width: calc(100% / 5);
+
     /* debug */
-    height: 500px;
     background-color: green;
     border: 2px solid black;
 }
 
+.col-25 {
+    width: calc(100% / 5);
+    /* debug */
+    height: 500px;
+}
+
 .col-30 {
-    gap: 10px;
     width: calc(100% / 3 - 30px);
     /* debug */
     height: 900px;
-    background-color: green;
-}
-
-
-/* test */
-
-.test-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    max-width: 800px;
 }
