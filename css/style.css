@@ -2,6 +2,8 @@
     --cyan-bg: #B4D0E7;
     --color-white: #FFFFFF;
     --blue-color: #0000ff;
+    --icon-space: 1.3em;
+
 }
 
 /* RESET */
@@ -72,7 +74,7 @@ img {
 
 .p-right-20 {
     padding-right: 50px;
-    
+
 }
 
 .p-y-10 {
@@ -95,6 +97,10 @@ img {
     padding-bottom: 80px;
 }
 
+.p-top-40 {
+    padding-top: 40px;
+}
+
 .blue-btn {
     color: var(--color-white);
     padding: 10px;
@@ -103,7 +109,7 @@ img {
 }
 
 
-.font-size-60{
+.font-size-60 {
     font-size: 60px;
 }
 
@@ -132,12 +138,14 @@ a {
     font-weight: bold;
 }
 
+
+
 .circle {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: white;
-    
+
 }
 
 
@@ -156,6 +164,11 @@ header {
 
     /* debug */
     background-color: white;
+}
+
+.border-hover:hover {
+    padding-bottom: 30px;
+    border-bottom: 3px solid blue;
 }
 
 .left-side,
@@ -183,7 +196,7 @@ header {
     /* background-color: green; */
 }
 
-.jumbo-ctn > span {
+.jumbo-ctn>span {
     /* width: 100%; */
     font-size: 5rem;
     font-weight: bold;
@@ -235,15 +248,71 @@ header {
     /* background-color: orangered; */
 }
 
-.circle-ctn span:first-child{
+.circle-ctn span:first-child {
     border: 5px solid blue;
 }
 
-.circle-ctn span:nth-child(3){
+.circle-ctn span:nth-child(3) {
     border: 3px solid lightgray;
 
 }
 
+.content-card {
+    padding-left: 30px;
+}
+
+.content-card>span:first-child {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.content-card>span:nth-child(2) {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.content-card>span:nth-child(3) {
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.content-card ul li {
+    display: flex;
+    padding: 10px;
+}
+
+.content-card ul li:nth-child(1)::before {
+    content: "\f007";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc(var(--icon-space) * -1);
+    width: var(--icon-space);
+}
+
+.content-card ul li:nth-child(2)::before {
+    content: "\f07b";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc(var(--icon-space) * -1);
+    width: var(--icon-space);
+}
+
+.content-card ul li:nth-child(3)::before {
+    content: "\f1e0";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc(var(--icon-space) * -1);
+    width: var(--icon-space);
+}
+
+.content-card ul li:last-child {
+    padding-bottom: 50px;
+}
+
+.content-card .blue-btn {
+    max-width: 75%;
+}
 
 /* PARTNER */
 
