@@ -318,6 +318,39 @@ header {
     padding-bottom: 40px;
 }
 
+/* radio */
+
+.radio-wrapper {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.radio-wrapper input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-wrapper .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
+
+.radio-wrapper input[type="radio"]:checked + .checkmark {
+    border: 5px solid var(--blue-color);
+}
+
+
+
 /* PROFESSIONAL LIST */
 ul.adv-list li:nth-child(1)::before {
     content: "\f007";
