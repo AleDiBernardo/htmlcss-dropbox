@@ -512,7 +512,10 @@ footer {
     /* background-color: red; */
 }
 
-
 .col-100 {
     width: 100%;
+}
+
+.find-out-more {
+    width: 60%;
 }
