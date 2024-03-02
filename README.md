@@ -1,1 +1,1 @@
-![alt text](completed-dropbox.png)
+![alt text](dropbox-completed.png)
