@@ -146,8 +146,6 @@ a {
     font-weight: bold;
 }
 
-
-
 .circle {
     width: 20px;
     height: 20px;
@@ -295,6 +293,24 @@ header {
     padding: 10px;
 }
 
+
+.info>span:first-child {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.info>span:nth-child(2) {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.info>span:nth-child(3) {
+    color: grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 /* PROFESSIONAL LIST */
 ul.adv-list li:nth-child(1)::before {
     content: "\f007";
@@ -383,7 +399,6 @@ ul.highlight-list li:before {
 
 .big-square:after {
     content: "";
-    /* display: block; */
     padding-bottom: 100%;
 }
 
