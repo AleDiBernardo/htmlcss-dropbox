@@ -15,7 +15,6 @@
 }
 
 body {
-    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -87,6 +86,11 @@ img {
 
 .p-right-80 {
     padding-right: 80px;
+
+}
+
+.p-right-50 {
+    padding-right: 50px;
 
 }
 
@@ -230,31 +234,16 @@ header {
 /* JUMBO */
 .jumbo-section {
     padding-top: 150px;
-    /* debug */
     background-color: var(--cyan-bg);
 }
 
-.jumbo-ctn {
-    /* debug */
-    /* height: 1000px; */
-    /* background-color: green; */
-}
-
 .jumbo-ctn>span {
-    /* width: 100%; */
     font-size: 5rem;
     font-weight: bold;
-
-    /* debug */
-    /* height: 300px; */
-    /* background-color: red; */
 }
 
 .jumbo-ctn .left.rect {
     width: 30%;
-
-    /* debug */
-    /* background-color: aqua; */
 }
 
 .jumbo-ctn .left a {
@@ -264,9 +253,6 @@ header {
 .jumbo-ctn .right.rect {
     width: 70%;
     position: relative;
-
-    /* debug */
-    /* background-color: red; */
 }
 
 .jumbo-ctn .right img {
@@ -279,16 +265,6 @@ header {
 /* PLANS SECTION */
 .plans-section {
     padding-top: 120px;
-    /* padding-bottom: 20px; */
-    /* debug */
-    /* background-color: yellow; */
-}
-
-.find-business,
-.enterprise {
-    /* debug */
-    height: 150px;
-    /* background-color: orangered; */
 }
 
 .circle-ctn span:first-child {
@@ -430,6 +406,7 @@ ul.highlight-list li:before {
     position: relative;
     background-color: #F5F5F5;
     width: calc(100% / 3);
+    overflow-y: hidden;
 }
 
 .content {
