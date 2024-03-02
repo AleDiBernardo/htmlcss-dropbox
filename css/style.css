@@ -80,8 +80,13 @@ img {
     padding-left: 40px;
 }
 
-.p-right-20 {
-    padding-right: 50px;
+.p-right-300 {
+    padding-right: 300px;
+
+}
+
+.p-right-80 {
+    padding-right: 80px;
 
 }
 
@@ -136,9 +141,17 @@ img {
     line-height: 25px;
 }
 
+.ln-h-120 {
+    line-height: 120px;
+}
+
 .custom-link {
     text-decoration:underline;
     color: var(--blue-color);
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 /* COMMON */
@@ -518,6 +531,25 @@ ul.highlight-list li:before {
     height: 500px;
     background-color: violet;
 }
+
+.freq-question .fa-chevron-up {
+    display: none;
+}
+
+.freq-question .hide {
+    display: none;
+}
+/* 
+.freq-question li:hover .fa-chevron-down {
+    display: none;
+} */
+
+.freq-question li:hover .hide, .freq-question li:hover .fa-chevron-up{
+    display: block;
+}
+
+
+
 
 /* FOOTER */
 
