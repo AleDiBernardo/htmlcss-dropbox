@@ -209,8 +209,6 @@ header {
     top: 0;
     z-index: 9999;
     width: 100%;
-
-    /* debug */
     background-color: white;
 }
 
@@ -221,12 +219,9 @@ header {
 
 .left-side,
 .right-side {
-    /* width: 40%; */
     height: 80px;
     padding: 20px;
 
-    /* debug */
-    /* background-color: yellow; */
 }
 
 /* MAIN */
@@ -370,16 +365,10 @@ ul.highlight-list li:before {
 
 .img-side {
     width: 60%;
-    /* debug */
-    /* height: 800px; */
-    /* background-color: aqua; */
 }
 
 .text-side {
     width: 40%;
-    /* debug */
-    /* height: 800px; */
-    /* background-color: pink; */
 }
 
 /* OPERATIONS SECTION */
@@ -387,19 +376,10 @@ ul.highlight-list li:before {
 .operations-box {
     flex-wrap: wrap;
     gap: 20px;
-
-    /* debug */
-    /* height: 600px; */
-    /* background-color: lightgreen; */
 }
 
 .operations-box .col-30 {
     width: calc(100% / 3 - 20px);
-    height: 500px;
-}
-
-.dropbox-business {
-    height: 300px;
 }
 
 .big-square {
@@ -482,7 +462,7 @@ ul.highlight-list li:before {
 .free-trial {
 
     /* debug */
-    height: 400px;
+    padding: 80px 0;
     background-color: #B4D0E7;
 }
 
@@ -499,14 +479,7 @@ ul.highlight-list li:before {
 /* FREQUENT QUESTION */
 
 .freq-question {
-
-    /* debug */
-    height: 800px;
-}
-
-.freq-question .rect {
-    height: 500px;
-    background-color: violet;
+    margin: 80px 0;
 }
 
 .freq-question .fa-chevron-up {
@@ -516,24 +489,15 @@ ul.highlight-list li:before {
 .freq-question .hide {
     display: none;
 }
-/* 
-.freq-question li:hover .fa-chevron-down {
-    display: none;
-} */
 
 .freq-question li:hover .hide, .freq-question li:hover .fa-chevron-up{
     display: block;
 }
 
 
-
-
 /* FOOTER */
 
 footer {
-
-    /* debug */
-    /* height: 700px; */
     background-color: black;
     color: white;
 }
@@ -555,24 +519,16 @@ footer {
 
 [class^="col"] {
     gap: 10px;
-
-    /* debug */
-    /* background-color: green; */
     border: 1px solid grey;
 }
 
 .col-25 {
     width: calc(100% / 5);
-    /* debug */
-    height: 500px;
 }
 
 .col-30 {
     width: calc(100% / 3 - 30px);
-    /* debug */
-    /* height: 900px; */
     padding-bottom: 40px;
-    /* background-color: red; */
 }
 
 .col-100 {
