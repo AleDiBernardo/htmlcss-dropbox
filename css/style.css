@@ -120,6 +120,14 @@ img {
     font-weight: bold;
 }
 
+.white-btn {
+    padding: 10px;
+    background-color: var(--color-white);
+    font-weight: bold;
+    border: 1px solid black;
+    max-width: 40%;
+}
+
 .font-size-60 {
     font-size: 60px;
 }
