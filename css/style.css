@@ -428,7 +428,7 @@ ul.highlight-list li:before {
 
 .big-square::after {
     content: "";
-    padding-top: 100%;
+    padding-top: 80%;
 }
 
 
@@ -496,10 +496,15 @@ ul.highlight-list li:before {
     background-color: #B4D0E7;
 }
 
-.free-trial .rect {
-    background-color: lightcoral;
+.free-trial .white-btn {
+    height: 30%;
+    border: none;
 }
 
+.free-trial .subtitle {
+    max-width: 50%;
+    color: #61082B;
+}
 
 /* FREQUENT QUESTION */
 
