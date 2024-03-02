@@ -535,11 +535,16 @@ footer {
     /* debug */
     /* height: 700px; */
     background-color: black;
+    color: white;
 }
 
 /* Containers */
 .container-65 {
     width: 65%;
+}
+
+.container-65 div:first-child hr {
+    width: 50%;
 }
 
 .container-55 {
