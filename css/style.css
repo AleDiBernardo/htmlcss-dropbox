@@ -150,7 +150,7 @@ img {
 }
 
 .custom-link {
-    text-decoration:underline;
+    text-decoration: underline;
     color: var(--blue-color);
 }
 
@@ -275,7 +275,7 @@ header {
     padding-left: 30px;
 }
 
-.content-card hr{
+.content-card hr {
     width: 50px;
 }
 
@@ -345,7 +345,7 @@ header {
     border-radius: 50%;
 }
 
-.radio-wrapper input[type="radio"]:checked + .checkmark {
+.radio-wrapper input[type="radio"]:checked+.checkmark {
     border: 5px solid var(--blue-color);
 }
 
@@ -481,7 +481,7 @@ ul.highlight-list li:before {
     max-width: 50%;
 }
 
-.middle img{
+.middle img {
     max-width: 60%;
 }
 
@@ -523,7 +523,8 @@ ul.highlight-list li:before {
     display: none;
 }
 
-.freq-question li:hover .hide, .freq-question li:hover .fa-chevron-up{
+.freq-question li:hover .hide,
+.freq-question li:hover .fa-chevron-up {
     display: block;
 }
 
@@ -546,6 +547,29 @@ footer {
 
 .container-55 {
     width: 55%;
+}
+
+/* form */
+
+/* Stile per il selettore di lingua */
+select {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+/* Stile per l'etichetta */
+label {
+    align-items: center;
+}
+
+option {
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
 
 /* Columns */
