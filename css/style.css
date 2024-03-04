@@ -230,10 +230,32 @@ header {
     background-color: var(--color-white);
 }
 
-.border-hover:hover {
+.li-hover a{
+    position: relative;
+    padding-bottom: 5px;
+}
+
+
+.li-hover a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--blue-color);
+    transition: width 0.3s ease;
+    margin-top: 80px;
+}
+
+.li-hover a:hover::before {
+    width: 100%;
+}
+
+/* .border-hover:hover {
     padding-bottom: 30px;
     border-bottom: 3px solid var(--blue-color);
-}
+} */
 
 .left-side,
 .right-side {
