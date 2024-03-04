@@ -272,6 +272,9 @@ header {
     position: absolute;
 }
 
+.fa-arrow-down:hover {
+    color: var(--blue-color);
+}
 
 /* MAIN-CONTENT */
 
@@ -570,6 +573,10 @@ footer li a:hover {
     width: 55%;
 }
 
+.card:hover .header-card + hr {
+    border: 1px solid var(--blue-color);
+}
+
 /* form */
 
 /* Stile per il selettore di lingua */
@@ -597,7 +604,12 @@ option {
 
 [class^="col"] {
     gap: 10px;
-    border: 1px solid var(--gray-color);
+    border: 2px solid var(--gray-color);
+}
+
+[class^="col"]:hover {
+    gap: 10px;
+    border: 2px solid var(--blue-color);
 }
 
 .col-25 {
