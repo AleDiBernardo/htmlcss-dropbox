@@ -120,6 +120,14 @@ img {
     padding-top: 40px;
 }
 
+.m-y-60 {
+    margin: 60px 0;
+}
+
+.m-bot-20 {
+    margin-bottom: 20px;
+}
+
 .blue-btn {
     color: var(--color-white);
     padding: 10px;
@@ -153,9 +161,9 @@ img {
     line-height: 25px;
 }
 
-.ln-h-120 {
+/* .ln-h-120 {
     line-height: 120px;
-}
+} */
 
 .custom-link {
     text-decoration: underline;
@@ -558,6 +566,15 @@ ul.highlight-list li:before {
 
 .freq-question .hide {
     display: none;
+}
+
+.freq-question li {
+    position: relative;
+}
+
+.freq-question li > i {
+    position: absolute;
+    right: 40px;
 }
 
 .freq-question li:hover .hide,
